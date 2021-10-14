@@ -1,6 +1,6 @@
 # NodeJs Serverless AWS Lambda API
 
-Source: [](https://www.youtube.com/watch?v=ryPgWz6hbXo)
+Source: [www.youtube.com/watch?v=ryPgWz6hbXo](https://www.youtube.com/watch?v=ryPgWz6hbXo)
 
 ## Start npm
 
@@ -10,7 +10,7 @@ npm init -y
 
 ## Amplify
 
-Source: [](https://docs.amplify.aws/start/q/integration/react/)
+Source: [docs.amplify.aws/start/q/integration/react](https://docs.amplify.aws/start/q/integration/react/)
 
 ```sh
 npm install @aws-amplify/cli
@@ -43,7 +43,7 @@ amplify add api
 amplify push
 ```
 
-Check endpoint: [](https://a8cnh0rrii.execute-api.us-east-1.amazonaws.com/dev/sensor/31d42f54-ef12-4c83-a5be-19a87368b648)
+Check endpoint: [a8cnh0rrii.execute-api.us-east-1.amazonaws.com/dev/sensor/31d42f54-ef12-4c83-a5be-19a87368b648](https://a8cnh0rrii.execute-api.us-east-1.amazonaws.com/dev/sensor/31d42f54-ef12-4c83-a5be-19a87368b648)
 
 ## Deploy frontend
 
