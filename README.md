@@ -13,7 +13,7 @@ npm init -y
 Source: [docs.amplify.aws/start/q/integration/react](https://docs.amplify.aws/start/q/integration/react/)
 
 ```sh
-npm install @aws-amplify/cli
+npm install -g @aws-amplify/cli
 amplify configure
 ```
 
