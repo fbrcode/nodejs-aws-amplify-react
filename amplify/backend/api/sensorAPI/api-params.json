@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/sensor/{sensorUUID}",
+      "lambdaFunction": "sensorAPIlambda",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/sensor/*"
+    }
+  ],
+  "resourceName": "sensorAPI",
+  "apiName": "sensorAPI",
+  "functionArns": [
+    {
+      "lambdaFunction": "sensorAPIlambda"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-nodeapi-dev-200922-authRole",
+    "unAuthRoleName": "amplify-nodeapi-dev-200922-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "sensorAPIlambda",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
